@@ -1,4 +1,4 @@
-name: 'Not Another Label Checker'
+name: 'Not Another Label Checker (NALC)'
 description: 'Pull Request Label Validator'
 author: 'David Bour'
 inputs:

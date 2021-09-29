@@ -1,0 +1,10 @@
+name: 'Not Another Label Checker'
+description: 'Pull Request Label Validator'
+author: 'David Bour'
+inputs:
+  expectedLabels:
+    required: true
+    description: 'A list of required labels (e.g. pop,tart,poptart )'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
